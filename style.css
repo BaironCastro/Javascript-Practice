@@ -1,0 +1,42 @@
+section{
+    width: 100%;
+    min-width: 100vh;
+    padding: 60px 0;
+    background: blue;
+    text-align: center;
+}
+h1{
+    color: azure;
+    font-size: 42px;
+}
+h2{
+    color: #cc832a;
+    font-size: 32px;
+}
+p{
+    color: aliceblue;
+    font-size: 22px;
+}
+hr{
+    border-color: whitesmoke;
+    margin: 40px;
+}
+button{
+    width: 220px;
+    background: transparent;
+    padding: 14px 30px;
+    margin: 15px 30px;
+    color: #ffffff;
+    border: 2px solid red;
+    transition: .4s;
+    cursor: pointer;
+}
+button:hover{
+    background: yellow;
+    color: #ec1b1b;
+    border-radius: 10px;
+}
+.cont-botones{
+    width: 80%;
+    margin: 30px auto;
+}
